@@ -5,7 +5,7 @@ import axios from 'axios';
 import { useAuthStore } from './authStore';
 
 export interface Customer {
-  id?: number; // optional in case not returned
+  id?: number;
   uuid?: string;
   entity_id?: number;
   name: string;

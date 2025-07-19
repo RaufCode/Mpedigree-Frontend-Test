@@ -5,7 +5,7 @@ import router from '@/router'
 import { useToast } from 'vue-toastification'
 
 
-const toast = useToast()
+// const toast = useToast()
 
 export const useAuthStore = defineStore('auth', () => {
   const individual = ref<any>(JSON.parse(localStorage.getItem('individual') || 'null'))
@@ -72,6 +72,6 @@ export const useAuthStore = defineStore('auth', () => {
     signUp,
     signIn,
     logout,
-    getEntityId // ✅ expose computed getter
+    getEntityId
   }
 })

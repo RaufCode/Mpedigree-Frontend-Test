@@ -102,9 +102,7 @@
             </form>
 
             <div class="mt-8 text-center">
-                <p class="text-xs text-gray-500">
-                    Protected by industry-standard security
-                </p>
+                <p class="text-xs text-gray-500">Creadmap</p>
             </div>
         </div>
     </div>
