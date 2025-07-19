@@ -101,7 +101,7 @@
                         />
                         <BaseInput
                             label="Phone Number"
-                            type="number"
+                            type="text"
                             placeholder="Phone Number"
                             v-model="newCustomer.phone_number"
                         />
