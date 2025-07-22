@@ -23,11 +23,11 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-6">
             <div class="p-4 rounded-lg shadow hover:shadow-md">
                 <h3 class="text-lg font-semibold">Total Customers</h3>
-                <p class="text-xl">{{ totalCustomers }}</p>
+                <p class="text-xl">{{ customerStore.customers.length }}</p>
             </div>
             <div class="p-4 rounded-lg shadow hover:shadow-md">
                 <h3 class="text-lg font-semibold">Total Categories</h3>
-                <p class="text-xl">{{ totalCategories }}</p>
+                <p class="text-xl">{{ categoryStore.categories.length }}</p>
             </div>
         </div>
     </div>

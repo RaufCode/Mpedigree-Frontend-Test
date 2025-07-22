@@ -39,7 +39,8 @@ export const useCustomerStore = defineStore('customer', () => {
         }
       );
 
-      customers.value = response.data.customer;
+      customers.value = Array.isArray(response.data.customer) ? response.data.customer : [];
+
     } catch (err: any) {
       error.value =
         err.response?.data?.message || 'Failed to fetch customers.';
